@@ -1,5 +1,5 @@
 resource "aws_instance" "nat" {
-  ami                         = "ami-08d70e59c07c61a3a"              // Ubuntu Server 16.04 LTS (HVM), SSD Volume Type
+  ami                         = "ami-0157b1e4eefd91fd7"              // CentOS 8.2.2004 x86_64
   availability_zone           = "us-west-2a"
   instance_type               = "m1.small"
   key_name                    = "${var.aws_key_name}"
