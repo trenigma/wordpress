@@ -23,7 +23,7 @@ variable "amis" {
   description = "AMIs by region"
 
   default = {
-    us-west-2 = "ami-08d70e59c07c61a3a"
+    us-west-2 = "ami-0157b1e4eefd91fd7"
   }
 }
 
